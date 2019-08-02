@@ -23,7 +23,7 @@ body {
 }
 
 .main {
-    background-image: url("new_archie_pic.png");
+    background-image: url("../resources/new_archie_pic.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
