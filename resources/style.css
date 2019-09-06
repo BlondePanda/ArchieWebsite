@@ -592,7 +592,7 @@ footer {
         justify-content: space-evenly;
     }
     .food-tiny img {
-        height: auto;
+        height: 30%;
         width: 70%;
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
