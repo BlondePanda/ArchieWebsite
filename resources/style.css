@@ -582,6 +582,10 @@ footer {
     .slider-change {
         margin: 2%;
     }
+    .pictures-box-two,
+    .food-section-mobile {
+        display: none;
+    }
     .food-tiny {
         display: flex;
         flex-wrap: wrap;
