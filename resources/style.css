@@ -144,6 +144,10 @@ nav {
     display: none;
 }
 
+.food-tiny {
+    display: none;
+}
+
 /*  */
 
 .toys {
@@ -577,5 +581,26 @@ footer {
     }
     .slider-change {
         margin: 2%;
+    }
+    .food-tiny {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .food-tiny img {
+        height: auto;
+        width: 70%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        margin-bottom: 0px;
+    }
+    .food-tiny h2 {
+      height: 40px;
+      width: 70%;
+      background-color: rgb(207, 204, 204);
+      border-bottom-left-radius: 5%;
+      border-bottom-right-radius: 5%;
+      text-align: center;
+      margin-top: 0px;
     }
 }
