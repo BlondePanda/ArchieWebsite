@@ -140,7 +140,8 @@ nav {
 
 .pictures-box-two,
 .food-section-mobile,
-#food-mobile {
+#food-mobile,
+.tiny {
     display: none;
 }
 
@@ -607,4 +608,6 @@ footer {
       text-align: center;
       margin-top: 0px;
     }
+    .tiny {
+        display: block;
 }
