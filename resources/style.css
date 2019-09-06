@@ -151,12 +151,6 @@ nav {
 
 /*  */
 
-.toys {
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
 .toys-pics-one {
     display: flex;
     flex-wrap: wrap;
