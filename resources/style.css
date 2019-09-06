@@ -1,6 +1,7 @@
 html {
     font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
     font-size: 16px;
+    line-height: 25px;
   }
 
 body {
@@ -11,15 +12,18 @@ body {
 .title {
     color: #2B0922;
     text-align: right;
+    font-size: 2.5rem;
+    text-transform: uppercase;
     margin-right: 16%;
     padding-top: 16%;
-    font-size: 2.5rem;
+    line-height: 1.1em;
 }
 
 .subtitle {
     color: #3E0F31;
     text-align: right;
     margin-right: 11%;
+    margin-left: 30%;
 }
 
 .main {
@@ -31,8 +35,15 @@ body {
     height: 400px;
 }
 
+/* Navigation Bar */
+
 a {
     color: seashell;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .navigation {
@@ -56,10 +67,18 @@ nav {
 .item {
     display: inline-flex;
     padding: 20px 20px;
+    font-size: 1.4rem;
 }
+
+.navigation-mobile {
+    display: none;
+}
+
+/*  Common Features  */
 
 .list-item {
     text-align: center;
+    color: rgb(31, 3, 31);
 }
 
 .fa {
@@ -67,4 +86,488 @@ nav {
     margin-left: 20%;
     margin-right: 9%;
     text-align: center;
+    color: rgb(31, 3, 31);
+}
+
+.description {
+    text-align: center;
+    font-size: 17px;
+}
+
+/* Food Section  */
+
+.pictures-box-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pictures-box-one img {
+    height: auto;
+    width: 20%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.food-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pate-box,
+.cereal-box,
+.fruits-box,
+.fish-box {
+    height: auto;
+    width: 20%;
+    background-color: rgb(207, 204, 204);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.food-title {
+    color: #44263c;
+    text-align: center;
+}
+
+.fruits-box p,
+.cereal-box p {
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.pictures-box-two,
+.food-section-mobile,
+#food-mobile {
+    display: none;
+}
+
+/*  */
+
+.toys {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.toys-pics-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.toys-pics-one img {
+    height: auto;
+    width: 25%;
+    border-radius: 5%;
+    margin-top: 3%;
+}
+
+
+/* Trips Section */
+
+.trips {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.towns-row-one,
+.towns-row-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pleven,
+.nesebar,
+.balchik,
+.ruse,
+.lovech,
+.dobrich,
+.serbia,
+.russia {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 18%;
+    height: 130px;
+    background-position: top;
+    text-align: center;
+}
+
+.pleven {
+    background-image: url(../css/images/pleven.jpg);
+}
+
+.nesebar {
+    background-image: url(../css/images/Nesebar.jpg);
+}
+
+.balchik {
+    background-image: url(../css/images/balchik22.jpg);
+}
+
+.ruse {
+    background-image: url(../css/images/Ruse2.jpg);
+}
+
+.lovech {
+    background-image: url(../css/images/Lovech2.jpg);
+}
+
+.dobrich {
+    background-image: url(../css/images/Dobrich2.jpg);
+}
+
+.serbia {
+    background-image: url(../css/images/serbia1.jpg);
+}
+
+.russia {
+    background-image: url(../css/images/russia.JPG);
+}
+
+h4.pleven {
+    padding-top: 3px;
+    color: rgb(3, 12, 31);
+    text-transform: uppercase;
+    letter-spacing: 1.4em;
+    font-size: 24px;
+    margin: 0px;
+}
+
+h4.nesebar,
+h4.balchik,
+h4.ruse {
+    margin: 0px;
+    padding-top: 3px;
+    color: rgb(3, 12, 31);
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    font-size: 24px;
+}
+
+h4.dobrich,
+h4.serbia {
+    margin: 0px;
+    padding-top: 3px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    font-size: 24px;
+}
+
+h4.lovech,
+h4.russia {
+    margin: 0px;
+    padding-top: 3px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    font-size: 24px;
+}
+
+.towns-mobile {
+    display: none;
+}
+
+/* Friends */
+
+a.rokki-page {
+    text-decoration: none;
+    color: #53304a;
+    font-weight: bold;
+}
+
+a.rokki-page:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: #754c6b;
+    transition: color .3s ease-out;
+}
+
+.rokki-image img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Gallery Section */
+
+.slider-holder {
+    width: 750px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+       
+.image-holder {
+    width: 1750px;
+    background-color: #9E9494;
+    height: 200px;
+    clear: both;
+    position: relative;
+           
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+       
+.slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.slider-image img {
+    width: 250px;
+    height: auto;
+    align-self: center;
+}
+       
+#slider-image-1:target ~ .image-holder {
+    left: 0px;
+}
+       
+#slider-image-2:target ~ .image-holder {
+    left: -250px;
+}
+
+#slider-image-3:target ~ .image-holder {
+    left: -750px;
+}
+
+#slider-image-4:target ~ .image-holder {
+    left: -1000px;
+}
+       
+.button-holder {
+    position: relative;
+    top: -20px;
+}
+       
+.slider-change {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #754869;
+}
+
+.slider-change:hover {
+    background-color: #2e1628;
+}
+
+/* Contact Section */
+
+.fa-facebook-square,
+.fa-instagram,
+.fa-twitter-square {
+    color: rgb(31, 3, 31);
+    font-size: 20px;
+    margin: 3px;
+}
+
+/* Footer Section */
+
+footer {
+    margin: 16px 32px;
+    color: rgb(77, 73, 73);
+}
+
+@media only screen and (max-width: 1400px) {
+    h4.pleven {
+        letter-spacing: 1em;
+    }
+}
+
+@media only screen and (max-width: 1370px) {
+    h4.nesebar,
+    h4.balchik,
+    h4.dobrich {
+        letter-spacing: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    h4.nesebar,
+    h4.balchik,
+    h4.dobrich,
+    h4.pleven,
+    h4.russia,
+    h4.serbia,
+    h4.lovech,
+    h4.ruse {
+        letter-spacing: initial;
+    }
+    .pleven,
+    .nesebar,
+    .balchik,
+    .ruse,
+    .lovech,
+    .dobrich,
+    .serbia,
+    .russia {
+        border-radius: 5%;
+    }
+}
+
+@media only screen and (min-width: 840px) and (max-width: 1024px) and (orientation: landscape) {
+    .subtitle {
+        margin-right: 6%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .subtitle {
+        margin-right: 2%;
+        text-align: center;
+    }
+    .food-section {
+        display: none;
+    }
+    .pictures-box-two,
+    .food-section-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .pictures-box-two img {
+        height: auto;
+        width: 30%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        margin-top: 3%;
+    }
+    .food-title {
+        color: #44263c;
+        text-align: center;
+    }
+    .pate-box,
+    .cereal-box,
+    .fruits-box,
+    .fish-box {
+    height: auto;
+    width: 30%;
+    background-color: rgb(207, 204, 204);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    }
+    #food-mobile {
+        display:block;
+    }
+    .toys-pics-one img {
+        width: 40%;
+        height: auto;
+        border-radius: 5%;
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 750px) {
+    .slider-holder {
+        width: 500px;
+    }
+    #slider-image-4:target ~ .image-holder {
+        left: -1250px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .towns {
+        display: none;
+    }
+    .towns-mobile {
+        display: block;
+    }
+    .towns-mobile-one,
+    .towns-mobile-two,
+    .towns-mobile-three,
+    .towns-mobile-four {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+    .pleven {
+        background-image: url(../css/images/pleven.jpg);
+    }
+    
+    .nesebar {
+        background-image: url(../css/images/Nesebar.jpg);
+    }
+    
+    .balchik {
+        background-image: url(../css/images/balchik22.jpg);
+    }
+    
+    .ruse {
+        background-image: url(../css/images/Ruse2.jpg);
+    }
+    
+    .lovech {
+        background-image: url(../css/images/Lovech2.jpg);
+    }
+    
+    .dobrich {
+        background-image: url(../css/images/Dobrich2.jpg);
+    }
+    
+    .serbia {
+        background-image: url(../css/images/serbia1.jpg);
+    }
+    
+    .russia {
+        background-image: url(../css/images/russia.JPG);
+    }
+    .pleven,
+    .nesebar,
+    .balchik,
+    .ruse,
+    .lovech,
+    .dobrich,
+    .serbia,
+    .russia {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 37%;
+    height: 130px;
+    background-position: top;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .navigation {
+        display: none;
+    }
+    .navigation-mobile {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mobile-item {
+        border: 0.02px seashell solid;
+        letter-spacing: 1.1rem;
+        font-size: 18px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .mobile-item a:hover {
+        text-decoration: none;
+    }
+    #slider-image-4:target ~ .image-holder {
+        left: -1500px;
+    }
+    .slider-holder {
+        width: 250px;
+    }
+    .slider-change {
+        margin: 2%;
+    }
 }
