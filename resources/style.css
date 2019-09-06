@@ -378,7 +378,7 @@ a.rokki-page:hover {
 /* Footer Section */
 
 .footer {
-    margin-left: 10%;
+    float: left;
     color: rgb(77, 73, 73);
 }
 
