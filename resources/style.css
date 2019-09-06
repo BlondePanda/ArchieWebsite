@@ -27,7 +27,7 @@ body {
 }
 
 .main {
-    background-image: url("https://BlondePanda.github.io/ArchieWebsite/resources/IMG_5145.JPG");
+    background-image: url("../resources/IMG_5145.JPG");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
