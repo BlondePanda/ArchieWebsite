@@ -170,6 +170,11 @@ nav {
     margin-top: 3%;
 }
 
+.toys-mobile {
+    display: none;
+}
+
+
 
 /* Trips Section */
 
@@ -610,4 +615,18 @@ footer {
     }
     .tiny {
         display: block;
+    }
+    .toys-pics-one {
+        display: none;
+    }
+    .toys-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .toys-mobile img {
+        height: 30%;
+        width: 70%;
+        margin-top: 3%;
+    }
 }
