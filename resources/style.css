@@ -198,7 +198,7 @@ nav {
 }
 
 .pleven {
-    background-image: url(../css/images/pleven.jpg);
+    background-image: url("resources/pleven.jpg");
 }
 
 .nesebar {
