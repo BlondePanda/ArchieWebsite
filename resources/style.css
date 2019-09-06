@@ -92,6 +92,8 @@ nav {
 .description {
     text-align: center;
     font-size: 17px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 /* Food Section  */
@@ -171,12 +173,6 @@ nav {
 
 
 /* Trips Section */
-
-.trips {
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
-}
 
 .towns-row-one,
 .towns-row-two {
