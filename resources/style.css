@@ -375,6 +375,12 @@ a.rokki-page:hover {
     margin: 3px;
 }
 
+.fa-facebook-square:hover,
+.fa-instagram:hover,
+.fa-twitter-square:hover {
+    text-decoration: none;
+}
+
 /* Footer Section */
 
 footer {
