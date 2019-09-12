@@ -375,9 +375,10 @@ a.rokki-page:hover {
     margin: 3px;
 }
 
-.fa-facebook-square:hover,
-.fa-instagram:hover,
-.fa-twitter-square:hover {
+a.social-media {
+    text-decoration: none;
+
+a.social-media:hover {
     text-decoration: none;
 }
 
